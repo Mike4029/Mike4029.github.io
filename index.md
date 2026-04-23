@@ -1,8 +1,13 @@
-# 你好，这是我的新网站
+---
+layout: default
+title: 首页
+---
 
-这是我使用 Jekyll 主题搭建的页面。
+# 欢迎来到我的博客
 
-## 关于我
-- 我叫 Mike
-- 我喜欢编程
-- 我正在学习 GitHub Pages
+下面是我的文章列表：
+
+{% for post in site.posts %}
+*   **{{ post.date | date: "%Y-%m-%d" }}** : [{{ post.title }}]({{ post.url }})
+    *   分类: {{ post.categories | join: ', ' }}
+{% endfor %}
