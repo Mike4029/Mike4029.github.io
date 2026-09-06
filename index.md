@@ -30,13 +30,13 @@ title: 特依
   {% endfor %}
 </ul>
 
-## 分类
+## 标签
 
 <ul>
-  {% for category in site.categories %}
+  {% for tag in site.tags %}
     <li>
-      <a href="/categories/{{ category[0] }}/">{{ category[0] }}</a>
-      ({{ category[1].size }})
+      <a href="/tags/{{ tag[0] }}/">{{ tag[0] }}</a>
+      ({{ tag[1].size }})
     </li>
   {% endfor %}
 </ul>
