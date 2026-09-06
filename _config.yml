@@ -26,15 +26,4 @@ plugins:
   - jekyll-sitemap     # 生成 sitemap.xml（利于搜索收录）
   - jekyll-seo-tag     # SEO 元标签
 
-# ============ 分页（可选） ============
-# paginate: 10
-# paginate_path: "/page:num/"
 
-# ============ 社交媒体（可选，minima 主题会显示图标） ============
-# minima:
-#   social_links:
-#     email: 你的邮箱
-
-# ============ 导航菜单（可选） ============
-# header_pages:
-#   - about.md
