@@ -19,5 +19,25 @@ title: 特依
   {% endfor %}
 </ul>
 
+## 分类
 
+<ul>
+  {% for category in site.categories %}
+    <li>
+      <a href="/categories/{{ category[0] }}/">{{ category[0] }}</a>
+      ({{ category[1].size }})
+    </li>
+  {% endfor %}
+</ul>
+
+## 分类
+
+<ul>
+  {% for category in site.categories %}
+    <li>
+      <a href="/categories/{{ category[0] }}/">{{ category[0] }}</a>
+      ({{ category[1].size }})
+    </li>
+  {% endfor %}
+</ul>
 
