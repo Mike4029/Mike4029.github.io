@@ -18,7 +18,7 @@ highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
 # ============ 主题 ============
-theme: midnight
+theme: minima
 
 # ============ 插件（GitHub Pages 白名单内） ============
 plugins:
