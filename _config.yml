@@ -1,6 +1,7 @@
 # ============ 基本信息 ============
 title: 特依
 description: 记录学习、思考
+show_downloads: false
 author: Mike
 
 # ============ URL 设置 ============
@@ -18,9 +19,7 @@ highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
 # ============ 主题 ============
-plugins:
-    - jekll-remote-theme
-remote_theme: mmistakes/minimal-mistakes
+theme: jekyll-theme-tactile
 
 # ============ 插件（GitHub Pages 白名单内） ============
 plugins:
