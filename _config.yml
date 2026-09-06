@@ -18,7 +18,9 @@ highlighter: rouge
 permalink: /:year/:month/:day/:title/
 
 # ============ 主题 ============
-theme: minima
+plugins:
+    - jekll-remote-theme
+remote_theme: mmistakes/minimal-mistakes
 
 # ============ 插件（GitHub Pages 白名单内） ============
 plugins:
