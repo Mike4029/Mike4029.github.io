@@ -14,6 +14,7 @@ title: 特依
 <li>
 <a href="{{ post.url }}">{{ post.title}}</a>
 <span>· {{ post.date | date: "%Y-%m-%d" }}</span>
+    <p>{{ post.excerpt}}</p>
     </li>
   {% endfor %}
 </ul>
